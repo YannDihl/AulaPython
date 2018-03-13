@@ -1,0 +1,11 @@
+n = 1
+media=0
+soma=0
+count=0
+while(n>=1):
+  n = int(input("Informe um valor inteiro positivo: "))
+  count = count + 1 
+  soma = n+soma
+media = soma/count
+print("A média dos valores digitados é: %.2f" % media)
+

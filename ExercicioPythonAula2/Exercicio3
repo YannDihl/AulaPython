@@ -1,0 +1,9 @@
+A = int(input("Informe o primeiro lado: "))
+B = int(input("Informe o segundo lado: "))
+C = int(input("Informe o terceiro lado: "))
+if(A==B and A==C and B==C):
+    print("O triangulo é equilatero!!!")
+elif(A==B and A!=C or A==C and A!=B or B==C and B!=A):
+    print("O triangulo é isósceles!!!")
+else:
+    print("O triangulo é escaleno!!!")

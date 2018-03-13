@@ -1,0 +1,16 @@
+numb1 = int(input("Informe o primeiro de 1 a 10 número: "))
+numb2 = int(input("Informe o segundo de 1 a 10 número: "))
+soma = numb1+numb2
+media = soma/2
+produto = numb1*numb2
+if(numb2>numb1):
+    aux=numb2
+    numb2=numb1
+    numb1=aux
+quociente = numb1/numb2
+if(soma<8):
+    print("A média dos valores é: %.2f" % media)
+elif(soma==8):
+     print("O produto dos valores é: %i" % produto)
+else:
+     print("A divisão do maior pelo menor é: %.2f" % quociente)

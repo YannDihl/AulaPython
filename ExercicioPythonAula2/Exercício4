@@ -1,0 +1,9 @@
+i=0
+while(i==0):
+  n = int(input("Informe um valor: "))
+  if(n>0):
+    print("O valor %i é positivo!" % n)
+  elif(n==0):
+    print("O valor %i é zero!" % n)
+  else:
+    print("O valor %i é negativo!" % n)
